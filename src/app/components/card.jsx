@@ -11,9 +11,9 @@ const Card = (props) => {
         <Image
           src={mobile}
           alt=""
-          className="rounded-tl-lg md:max-w-[400px] md:rounded-bl-lg md:rounded-tr-none rounded-tr-lg"
+          className="rounded-tl-lg md:max-w-sm md:rounded-bl-lg md:rounded-tr-none rounded-tr-lg"
         />
-        <div className="bg-white p-5 d:rounded-br-lg md:rounded-tr-lg md:max-w-[350px] rounded-bl-lg rounded-br-lg">
+        <div className="bg-white p-5 d:rounded-br-lg md:rounded-tr-lg md:max-w-sm rounded-bl-lg rounded-br-lg">
           <h2 className="text-gray-500 font-light">P E R F U M E</h2>
           <h1 className="font-fraunces text-4xl font-Fraunces max-w-xs my-2 font-bold">
             Gabrielle Essence Ear De Parfum
