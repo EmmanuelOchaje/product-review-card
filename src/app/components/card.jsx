@@ -11,11 +11,11 @@ const Card = (props) => {
         <Image
           src={mobile}
           alt=""
-          className="rounded-tl-lg md:max-w-sm md:rounded-bl-lg md:rounded-tr-none rounded-tr-lg"
+          className="rounded-tl-lg md:max-w-[400px] md:rounded-bl-lg md:rounded-tr-none rounded-tr-lg"
         />
-        <div className="bg-white p-5 d:rounded-br-lg md:rounded-tr-lg md:max-w-md rounded-bl-lg rounded-br-lg">
+        <div className="bg-white p-5 d:rounded-br-lg md:rounded-tr-lg md:max-w-[350px] rounded-bl-lg rounded-br-lg">
           <h2 className="text-gray-500 font-light">P E R F U M E</h2>
-          <h1 className="font-fraunces text-4xl font-Fraunces my-2 font-bold">
+          <h1 className="font-fraunces text-4xl font-Fraunces max-w-xs my-2 font-bold">
             Gabrielle Essence Ear De Parfum
           </h1>
           <p className="text-gray-500 text-xl font-light text-balance my-3">
@@ -23,7 +23,7 @@ const Card = (props) => {
             Polge, Perfumer-Creator for the House of CHANEL
           </p>
 
-          <div className="flex gap-6 items-center">
+          <div className="flex gap-6 md:my-5 items-center">
             <p className="text-[#3d8168] text-4xl font-bold">$149.99</p>
             <p className="line-through text-gray-500 font-semibold">169.99</p>
           </div>
